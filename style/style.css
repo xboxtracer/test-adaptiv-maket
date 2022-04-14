@@ -276,7 +276,7 @@ body {
 
 @media (min-width: 769px) {
     body {
-        max-width: 1919px;
+        max-width: 1199px;
     }
     .header__container {
         padding: 40px 32px 90px;
@@ -439,5 +439,16 @@ body {
         height: 100%;
         background-color: #0a0e34;
         opacity: 0.85;
+    }
+}
+@media (min-width: 1024px) {
+    .be__active::before {
+        background: url('../img/be-active_1024.jpg') center top no-repeat;
+    }
+    .find__contact::before{
+        background: url('../img/find-contact_1024.jpg') center top no-repeat;
+    }
+    .work__it::before {
+        background: url('../img/work-it_1024.jpg') center top no-repeat;
     }
 }
